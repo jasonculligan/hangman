@@ -24,7 +24,8 @@ while win == 1:
     while tries != 0:
         holder = ""
         print "\n"
-        guess = raw_input("Pick a letter: ").lower()
+        guess = raw_input("Pick a letter: ").lower()[:1]
+        print "GUESS LENGTH: %d" % len(guess)
         os.system('clear')
         if guess in used:
             for i in word:
