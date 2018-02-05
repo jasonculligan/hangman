@@ -55,7 +55,7 @@ while win == 1:
                 runningtotal += tries
                 while True:
                     goagain = raw_input("Would you like another go? (yes or no) ").lower()
-                    if goagain in ['yes', 'no']:
+                    if goagain in ['yes', 'no', 'cabbage']:
                         totgames += 1
                         break
                     else:
