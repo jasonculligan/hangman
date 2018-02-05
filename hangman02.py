@@ -65,6 +65,8 @@ while win == 1:
                     tries = 0
                     os.system('clear')
                     break
+                if goagain == "cabbage":
+                    print "You've found the easter egg!!"
                 else:
                     if gameswon == 1:
                         print "\nYou won 1 game. You got", runningtotal, "out of 10 which is", 100 * runningtotal / (totgames * 10),"%",2*"\n"
